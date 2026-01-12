@@ -1,0 +1,19 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+	<PropertyGroup>
+		<TargetFramework>net10.0</TargetFramework>
+		<ImplicitUsings>enable</ImplicitUsings>
+		<Nullable>enable</Nullable>
+
+		<PackageId>LocalizationManager</PackageId>
+		<Version>1.0.0</Version>
+		<Authors>Cacx</Authors>
+		<Description>A very simple and lightweight WPF localization solution using RESX and bindings.</Description>
+		<PackageTags>wpf localization resx</PackageTags>
+
+		<PackageProjectUrl>https://github.com/Cristiano3120/LocalizationManager</PackageProjectUrl>
+		<RepositoryUrl>https://github.com/Cristiano3120/LocalizationManager</RepositoryUrl>
+
+		<GeneratePackageOnBuild>true</GeneratePackageOnBuild>
+	</PropertyGroup>
+</Project>
