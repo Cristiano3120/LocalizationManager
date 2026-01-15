@@ -11,9 +11,20 @@
 		<Description>A very simple and lightweight WPF localization solution using RESX and bindings.</Description>
 		<PackageTags>wpf localization resx</PackageTags>
 
+		<GenerateDocumentationFile>true</GenerateDocumentationFile>
+		<NeutralLanguage>en</NeutralLanguage>
+
 		<PackageProjectUrl>https://github.com/Cristiano3120/LocalizationManager</PackageProjectUrl>
 		<RepositoryUrl>https://github.com/Cristiano3120/LocalizationManager</RepositoryUrl>
 
+		<PackageLicenseFile>License.txt</PackageLicenseFile>
+		<PackageReadmeFile>README.md</PackageReadmeFile>
+
 		<GeneratePackageOnBuild>true</GeneratePackageOnBuild>
 	</PropertyGroup>
+
+	<ItemGroup>
+		<None Include="License.txt" Pack="true" PackagePath="License.txt" />
+		<None Include="README.md" Pack="true" PackagePath="README.md" />
+	</ItemGroup>
 </Project>

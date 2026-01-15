@@ -1,3 +1,6 @@
 <Solution>
+  <Folder Name="/Samples/">
+    <Project Path="SampleProject/SampleProject.csproj" />
+  </Folder>
   <Project Path="LocalizationManager/Cacx.LocalizationManager.csproj" />
 </Solution>
